@@ -6,7 +6,7 @@ const { PORT, NODE_ENV } = require("./config");
 const gigRoutes = require("./routes/api/gigRoutes");
 const paymentRoutes = require("./routes/api/paymentRoutes");
 const orderRoutes = require("./routes/api/orderRoutes");
-const cors =require('cors')
+const cors = require('cors')
 // const isProduction = NODE_ENV === "production";
 
 // if (!isProduction) {
@@ -14,7 +14,7 @@ require("dotenv").config();
 // }
 app.use(cors(
   {
-    origin: "*",
+    origin: ["https://jambu-space-client.onrender.com"],
     // methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
 
@@ -35,7 +35,7 @@ require("./startup/routes")(app); // Initializing all api routes
 //   });
 // } else {
 
-app.use(express.static("../public"));
+app.use(express.static("../client/public"));
 app.get("/hello", (req, res) => {
   res.send("hello");
 });
