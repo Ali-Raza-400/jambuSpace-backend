@@ -12566,3 +12566,263 @@
     }
   ]
 }
+{
+  error: ReferenceError: adminRoutes is not defined
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js:45:23)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: 'uncaughtException: adminRoutes is not defined\n' +
+    'ReferenceError: adminRoutes is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:45:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: 'ReferenceError: adminRoutes is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:45:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Sun Dec 10 2023 21:27:40 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 10592,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65110016,
+      heapTotal: 42225664,
+      heapUsed: 29935696,
+      external: 20654576,
+      arrayBuffers: 18455421
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 429348 },
+  trace: [
+    {
+      column: 23,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 77,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\node_modules\express\lib\router\index.js:464:13)
+      at Function.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\node_modules\express\lib\application.js:220:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\node_modules\express\lib\application.js:217:7)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js:46:5)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js:464:13)\n' +
+    '    at Function.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\application.js:220:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\application.js:217:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js:464:13)\n' +
+    '    at Function.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\application.js:220:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\application.js:217:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Sun Dec 10 2023 21:28:06 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 4064,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75980800,
+      heapTotal: 57430016,
+      heapUsed: 35751072,
+      external: 25321041,
+      arrayBuffers: 18917873
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 429374 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.use',
+      line: 464,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\application.js',
+      function: null,
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 77,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
