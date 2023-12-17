@@ -176,5 +176,60 @@ router.delete(
     res.json({ id: result._id } || {});
   })
 );
+const multer = require('multer');
+const Applicant = require("../../models/Applicant");
+
+const storage = multer.memoryStorage();
+const upload = multer({ storage: storage });
+const MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB (adjust as needed)
+
+router.post('/applicants', upload.single('cvFile'), async (req, res) => {
+  try {
+    const { email, name,jobId,phoneNumber,experience,education } = req.body;
+
+    // Check if the file size exceeds the limit
+    if (req.file.size > MAX_FILE_SIZE_BYTES) {
+      return res.status(400).json({ success: false, error: 'File size exceeds the allowed limit.' });
+    }
+
+    console.log("email", email, name);
+
+    const newApplicant = new Applicant({
+      email,
+      name,
+      cv: {
+        filename: req.file.originalname,
+        data: req.file.buffer,
+      },
+      jobId,
+      phoneNumber,education,experience
+    });
+    console.log("newApplicant", newApplicant);
+
+    await newApplicant.save();
+
+    res.json({ success: true });
+  } catch (error) {
+    console.log("I am Running", error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+router.get('/applicants/detail/:id', async (req, res) => {
+  try {
+    const jobId = req.params.id;
+
+    // Fetch applicants for a specific job ID
+    const applicants = await Applicant.find({ jobId }).populate('jobId');
+
+    // Return the list of applicants as a JSON response
+    res.json({ success: true, applicants });
+  } catch (error) {
+    // Handle errors
+    console.error('Error fetching applicants:', error);
+    res.status(500).json({ success: false, error: 'Error fetching applicants' });
+  }
+});
+
+
 
 module.exports = router;

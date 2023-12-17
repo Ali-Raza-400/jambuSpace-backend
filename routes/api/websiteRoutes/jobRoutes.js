@@ -69,8 +69,8 @@ router.put(
       if (err)
         return err.code === "LIMIT_FILE_SIZE"
           ? res
-              .status(400)
-              .json({ message: "File too large. Must be less than 200 KB" })
+            .status(400)
+            .json({ message: "File too large. Must be less than 200 KB" })
           : res.status(400).json({ message: err.message });
 
       if (isEmpty(req.files)) {
@@ -121,8 +121,8 @@ router.post(
       if (err)
         return err.code === "LIMIT_FILE_SIZE"
           ? res
-              .status(400)
-              .json({ message: "File too large. Must be less than 200 KB" })
+            .status(400)
+            .json({ message: "File too large. Must be less than 200 KB" })
           : res.status(400).json({ message: err.message });
 
       if (isEmpty(req.files)) {

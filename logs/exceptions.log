@@ -12826,3 +12826,3075 @@
     }
   ]
 }
+{
+  error: TypeError: Cannot read properties of undefined (reading 'length')
+      at pathtoRegexp (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\node_modules\path-to-regexp\index.js:63:49)
+      at new Layer (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\node_modules\express\lib\router\layer.js:45:17)
+      at Function.route (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\node_modules\express\lib\router\index.js:500:15)
+      at Function.proto.<computed> [as post] (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\node_modules\express\lib\router\index.js:515:22)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:8)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'length')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'length')\n" +
+    '    at pathtoRegexp (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\path-to-regexp\\index.js:63:49)\n' +
+    '    at new Layer (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\layer.js:45:17)\n' +
+    '    at Function.route (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js:500:15)\n' +
+    '    at Function.proto.<computed> [as post] (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js:515:22)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'length')\n" +
+    '    at pathtoRegexp (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\path-to-regexp\\index.js:63:49)\n' +
+    '    at new Layer (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\layer.js:45:17)\n' +
+    '    at Function.route (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js:500:15)\n' +
+    '    at Function.proto.<computed> [as post] (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js:515:22)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:17:08 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 1376,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75710464,
+      heapTotal: 57430016,
+      heapUsed: 35603528,
+      external: 25321054,
+      arrayBuffers: 19027118
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 687913 },
+  trace: [
+    {
+      column: 49,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\path-to-regexp\\index.js',
+      function: 'pathtoRegexp',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'new Layer',
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.route',
+      line: 500,
+      method: 'route',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 515,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:70
+  };)
+  ^
+  
+  SyntaxError: missing ) after argument list
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+      at Module._compile (node:internal/modules/cjs/loader:1069:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js:29:1),
+  level: 'error',
+  message: 'uncaughtException: missing ) after argument list\n' +
+    'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:70\n' +
+    '};)\n' +
+    '^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:29:1)',
+  stack: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:70\n' +
+    '};)\n' +
+    '^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:29:1)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:17:37 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18936,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72835072,
+      heapTotal: 57954304,
+      heapUsed: 33010088,
+      external: 23457007,
+      arrayBuffers: 18778964
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 687942 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1033,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1069,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: upload is not defined
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:27)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js:29:1)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14),
+  level: 'error',
+  message: 'uncaughtException: upload is not defined\n' +
+    'ReferenceError: upload is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:29:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  stack: 'ReferenceError: upload is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:29:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:20:16 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 1660,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75612160,
+      heapTotal: 57430016,
+      heapUsed: 35565200,
+      external: 25321521,
+      arrayBuffers: 19027585
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 688102 },
+  trace: [
+    {
+      column: 27,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: multer is not defined
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:17)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js:29:1)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14),
+  level: 'error',
+  message: 'uncaughtException: multer is not defined\n' +
+    'ReferenceError: multer is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:17)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:29:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  stack: 'ReferenceError: multer is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:17)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js:29:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:20:27 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18076,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72867840,
+      heapTotal: 58216448,
+      heapUsed: 32975104,
+      external: 25321606,
+      arrayBuffers: 18743804
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 688112 },
+  trace: [
+    {
+      column: 17,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module 'c'
+  Require stack:
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:16)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:20:55 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 9204,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 73498624,
+      heapTotal: 58216448,
+      heapUsed: 33407368,
+      external: 25321636,
+      arrayBuffers: 18794286
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 688140 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module 'c'
+  Require stack:
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:16)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:34:27 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 12572,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74403840,
+      heapTotal: 57430016,
+      heapUsed: 35462504,
+      external: 25321636,
+      arrayBuffers: 19027700
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 688952 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module 'c'
+  Require stack:
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:16)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:35:26 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18448,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74481664,
+      heapTotal: 57430016,
+      heapUsed: 35465080,
+      external: 25321636,
+      arrayBuffers: 19027700
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 689011 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module 'c'
+  Require stack:
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:16)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Wed Dec 13 2023 21:35:44 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 10816,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74526720,
+      heapTotal: 57430016,
+      heapUsed: 35524520,
+      external: 25321692,
+      arrayBuffers: 19027756
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 689029 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module 'c'
+  Require stack:
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\websiteRoutes\jobRoutes.js:51:16)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:17:20)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "Error: Cannot find module 'c'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js:51:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:17:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Wed Dec 13 2023 22:56:15 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 1156,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74600448,
+      heapTotal: 57430016,
+      heapUsed: 35496616,
+      external: 25321692,
+      arrayBuffers: 19027756
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 693860 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\websiteRoutes\\jobRoutes.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module '../../../models/Applicant'
+  Require stack:
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\jobRoutes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js
+  - C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\jobRoutes.js:180:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:12:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../models/Applicant'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    "Error: Cannot find module '../../../models/Applicant'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "Error: Cannot find module '../../../models/Applicant'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js\n' +
+    '- C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Fri Dec 15 2023 00:13:05 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 17964,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71311360,
+      heapTotal: 57954304,
+      heapUsed: 32322328,
+      external: 25306542,
+      arrayBuffers: 18728740
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 85935 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js',
+      function: null,
+      line: 180,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: any is not defined
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\models\Applicant.js:6:7)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\jobRoutes.js:180:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:12:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14),
+  level: 'error',
+  message: 'uncaughtException: any is not defined\n' +
+    'ReferenceError: any is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:6:7)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  stack: 'ReferenceError: any is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:6:7)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  exception: true,
+  date: 'Sun Dec 17 2023 13:40:57 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 18004,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74944512,
+      heapTotal: 57430016,
+      heapUsed: 34907168,
+      external: 25306695,
+      arrayBuffers: 19012759
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 307207 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js',
+      function: null,
+      line: 180,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: string is not defined
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\models\Applicant.js:6:7)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\jobRoutes.js:180:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:12:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14),
+  level: 'error',
+  message: 'uncaughtException: string is not defined\n' +
+    'ReferenceError: string is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:6:7)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  stack: 'ReferenceError: string is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:6:7)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)',
+  exception: true,
+  date: 'Sun Dec 17 2023 13:41:02 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 9884,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72028160,
+      heapTotal: 58216448,
+      heapUsed: 32225288,
+      external: 25306695,
+      arrayBuffers: 18728893
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 307212 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js',
+      function: null,
+      line: 180,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\models\Applicant.js:20
+  const mongoose = require('mongoose');
+        ^
+  
+  SyntaxError: Identifier 'mongoose' has already been declared
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+      at Module._compile (node:internal/modules/cjs/loader:1069:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\jobRoutes.js:180:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:12:19),
+  level: 'error',
+  message: "uncaughtException: Identifier 'mongoose' has already been declared\n" +
+    'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:20\n' +
+    "const mongoose = require('mongoose');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'mongoose' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)',
+  stack: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:20\n' +
+    "const mongoose = require('mongoose');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'mongoose' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)',
+  exception: true,
+  date: 'Sun Dec 17 2023 21:24:04 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 12864,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75149312,
+      heapTotal: 57430016,
+      heapUsed: 35068368,
+      external: 25307474,
+      arrayBuffers: 19013538
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 334994 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1033,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1069,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js',
+      function: null,
+      line: 180,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\models\Applicant.js:42
+  });
+  ^
+  
+  SyntaxError: Unexpected token '}'
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+      at Module._compile (node:internal/modules/cjs/loader:1069:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\routes\api\jobRoutes.js:180:19)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HP\Desktop\Usman Project\jambu - Copy\backend\startup\routes.js:12:19),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '}'\n" +
+    'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:42\n' +
+    '});\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '}'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)',
+  stack: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\models\\Applicant.js:42\n' +
+    '});\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '}'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js:180:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js:12:19)',
+  exception: true,
+  date: 'Sun Dec 17 2023 21:31:01 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 7056,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75022336,
+      heapTotal: 57430016,
+      heapUsed: 35099440,
+      external: 25307505,
+      arrayBuffers: 19021761
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 335411 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1033,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1069,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\routes\\api\\jobRoutes.js',
+      function: null,
+      line: 180,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\HP\\Desktop\\Usman Project\\jambu - Copy\\backend\\startup\\routes.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    }
+  ]
+}
