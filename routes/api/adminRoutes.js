@@ -4,6 +4,7 @@ const asyncMiddleware = require("../../middlewares/async");
 const User = require("../../models/User");
 const Seller = require("../../models/Seller");
 const Customer = require("../../models/Customer");
+const Admin = require("../../models/Admin");
 
 router.get(
   "/getAllUsers",
@@ -84,5 +85,24 @@ router.post(
     res.send('Customer Edited');
   })
 );
+// ADMIN ROUTES:
+
+router.post('/login', asyncMiddleware(async (req, res) => {
+  const {
+    email,
+    password
+  } = req.body;
+
+  const admin = await Admin.findOne({
+      email,
+      password
+  });
+
+  if (admin) {
+    res.status(200).send(admin);
+  } else {
+    res.status(401).send('Invalid email or password');
+  }
+}))
 
 module.exports = router;
